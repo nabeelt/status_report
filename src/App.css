@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.margin10 {
+  margin: 10px;
+}
+.padding0{
+  padding: 0;
+}
+.padding20 {
+  padding: 20px;
+}
+.marginTop10 {
+  margin-top: 10px;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.header {
+  padding: 15px;
+    background: #2C3742;
+    margin: 0;
+}
+
+.footer {
+  padding: 40px;
+  background: #000;
+  width: 100%;
+  color: #fff;
+  left: 0;
+}
+
+.status-field {
+  border: 1px solid #ddd;
+    border-radius: 3px;
+    min-height: 100px;
+    width: 100%;
+    /* margin-top: 100px; */
+    padding: 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.history-container  {
+  margin-bottom: 30px;
+      min-height: 188px;
+}
+.status-wrapper {
+  padding: 30px;
+  border: 1px solid #ddd;
+  min-height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.ReactModal__Overlay {
+  background-color: rgba(0,0,0,.5) !important;
+}
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.ReactModalPortal .ReactModal__Content {
+  padding: 40px !important;
+    /* height: 170px; */
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%,-50%);
+}
+
+.status-entry-wrapper {
+  width: 98.5%;
+}
+
+.status-entry-wrapper .btn {
+  margin-bottom: 20px;
+  padding: 3px 15px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
